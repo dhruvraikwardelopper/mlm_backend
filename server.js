@@ -16,7 +16,7 @@ const app = express();
 
 // ✅ Middlewares
 app.use(cors({ origin: [ "https://dhruvraikwardelopper.github.io",
-    "https://dhruvraikwardelopper.github.io/mlm_Frontend"]}));
+    "https://mlm-backend-1-0ypb.onrender.com/mlm_Frontend"]}));
 app.use(express.json());
 app.use("/api/member", memberRoutes);
 
